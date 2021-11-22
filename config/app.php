@@ -70,7 +70,7 @@ return [
     | A 'random' string of text to help with security from time to time.
     |
     */
-    'seed' => 'PUT_TYPEROCKET_SEED_HERE',
+    'seed' => 'seed_619b9ba3992be',
 
     /*
     |--------------------------------------------------------------------------
