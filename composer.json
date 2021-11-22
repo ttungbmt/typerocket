@@ -28,7 +28,10 @@
         "php": "^7.4|^8.0",
         "typerocket/core": "5.0.*",
         "typerocket/professional": "*@dev",
-        "ext-json": "*"
+        "ext-json": "*",
+        "symfony/var-dumper": "^5.3",
+        "illuminate/support": "^8.73",
+        "eftec/bladeone": "^4.1"
     },
     "require-dev": {
         "phpunit/phpunit": "8.5.*"
