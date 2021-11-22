@@ -8,6 +8,10 @@
         "wpackagist": {
             "type": "composer",
             "url": "https://wpackagist.org"
+        },
+        "pro": {
+            "type": "path",
+            "url": "./packages/*"
         }
     },
     "authors": [
@@ -21,8 +25,9 @@
         "docs": "https://typerocket.com/docs/v5/"
     },
     "require": {
-        "php": ">=7.2.5",
+        "php": "^7.4|^8.0",
         "typerocket/core": "5.0.*",
+        "typerocket/professional": "*@dev",
         "ext-json": "*"
     },
     "require-dev": {

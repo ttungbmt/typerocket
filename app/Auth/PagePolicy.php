@@ -1,5 +1,8 @@
 <?php
+
+
 namespace App\Auth;
+
 
 use App\Models\Page;
 use TypeRocket\Auth\Policy;
@@ -10,7 +13,7 @@ class PagePolicy extends Policy
 
     public function update(AuthUser $auth, Page $page)
     {
-        if( $auth->isCapable('edit_pages') || $auth->getID() === $page->getUserID()) {
+        if( $auth->isCapable('edit_pages') || $auth->getID() == $page->getUserID()) {
             return true;
         }
 
@@ -28,7 +31,7 @@ class PagePolicy extends Policy
 
     public function destroy(AuthUser $auth, Page $page)
     {
-        if( $auth->isCapable('delete_pages') || $page->getUserID() === $auth->getID()) {
+        if( $auth->isCapable('delete_pages') || $page->getUserID() == $auth->getID()) {
             return true;
         }
 

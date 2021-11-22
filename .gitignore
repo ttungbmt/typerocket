@@ -1,4 +1,5 @@
 # Your Files
+/packages/professional
 /wordpress/tr_cache/rapid_cache/*
 /wordpress/wp-content/*
 !/wordpress/wp-content/mu-plugins/

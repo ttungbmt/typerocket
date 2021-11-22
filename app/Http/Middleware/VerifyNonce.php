@@ -8,7 +8,8 @@ use \TypeRocket\Http\Middleware\BaseVerify;
  *
  * Validate WP Nonce
  */
-class VerifyNonce extends BaseVerify
-{
+class VerifyNonce extends BaseVerify  {
+
     public $except = [];
+
 }

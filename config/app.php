@@ -12,6 +12,10 @@ return [
         '\TypeRocket\Extensions\TypeRocketUI',
         '\TypeRocket\Extensions\PostMessages',
         '\TypeRocket\Extensions\PageBuilder',
+        '\TypeRocketPro\Extensions\DevTools',
+        '\TypeRocketPro\Extensions\Seo',
+        '\TypeRocketPro\Extensions\ThemeOptions',
+        '\TypeRocketPro\Extensions\GutenbergRemover'
     ],
 
     /*
@@ -89,12 +93,12 @@ return [
     | The template engine used to build views for the front-end and admin.
     |
     | Pro Only:
-    |    - \TypeRocketPro\Template\TachyonTemplateEngine
-    |    - \TypeRocketPro\Template\TwigTemplateEngine
+    |    - \TypeRocket\Template\TachyonTemplateEngine
+    |    - \TypeRocket\Template\TwigTemplateEngine
     |
     */
     'templates' => [
-        'views' => '\TypeRocket\Template\TemplateEngine',
+        'views' => '\TypeRocketPro\Template\TachyonTemplateEngine',
     ],
 
     /*
